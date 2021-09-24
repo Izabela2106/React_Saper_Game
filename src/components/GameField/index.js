@@ -14,7 +14,6 @@ const GameField=({width,height,cellSize})=>{
         const [seconds, setSeconds] = useState(0);
       
         useEffect(() => {
-            console.log(gameActive) 
             if(gameActive){
           const interval = setInterval(() => {
             setSeconds(seconds => seconds + 1);
@@ -27,7 +26,6 @@ const GameField=({width,height,cellSize})=>{
             if(!isModalActive){
             setSeconds(0);
             }
-            console.log('set to 0')
         }
         }, [gameActive,isModalActive]);
 
