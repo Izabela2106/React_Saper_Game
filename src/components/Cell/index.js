@@ -53,7 +53,6 @@ background-size:${props=>props.size*0.8}px;;
 display: flex;
 justify-content: center;
 align-items: center;
-border-color:var(--primary-color-dark) #fff #fff var(--primary-color-dark);
 border-color: #fff var(--primary-color-dark) var(--primary-color-dark) #fff;
 
 
@@ -62,6 +61,10 @@ border-color: #fff var(--primary-color-dark) var(--primary-color-dark) #fff;
 .revealed{
     border-color:var(--primary-color-dark) #fff #fff var(--primary-color-dark);
 
+}
+
+.cell.bomb{
+    background-color:var(--alarm-color);
 }
 
 `
