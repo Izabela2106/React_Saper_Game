@@ -277,7 +277,6 @@ isGameActive=returnObject.isGameActive;
 cellsToReveal=returnObject.cellsToReveal;
 if(cellsToReveal ===0){
     isModal=true;
-    console.log("Win")
     isGameActive=false;
 }
 
